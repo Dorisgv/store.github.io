@@ -1,15 +1,50 @@
 /* --------------------GALLERY------------------------------------ */
 @use 'variables';
 
+.header-gallery{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #0E0E0E;
+    //border:3px solid green;
+}
+main{
+    padding-top: 6rem;
+}
 .title-gallery{
     color: rgb(245, 96, 10);
     text-align: center;
     font-size: 45px;
-    margin-top: 45px;
+    margin-top: 12px;
 }
 h2{
     color:white;
     text-align: center;
     font-size: 30px;
     margin-top: 4px;
+}
+.modal-content{
+    //border: 3px solid red;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 550px;
+
+}
+
+.girafaImg{
+    //border: 3px solid blue;
+    width: 230px;
+    height: 350px;
+    border-radius: 14px;
+
+
+ 
+
+    
+
+
+
 }
